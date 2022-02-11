@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Practica_3_contenedores</string>
+    <string name="registro">Registrate</string>
+    <string name="user">User:</string>
+    <string name="pass">Pass:</string>
+    <string name="edituser">user</string>
+    <string name="editpass">pass</string>
+    <string name="btcancel">Salir de la App</string>
+    <string name="btinicio">Iniciar sesion</string>
+    <string name="olvidopass">Olvidaste tu contraseña</string>
+    <string name="version">Version 1.0</string>
+
+    <string name="nombre">Nombre:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="nacimiento">Fecha de nacimiento:</string>
+    <string name="hobbie">Hobbies</string>
+
+    <string name="txt_hob1">Deportes</string>
+    <string name="txt_hob2">Arte</string>
+    <string name="txt_hob3">Ciencia</string>
+
+
+    <string name="txt_regresar">Regresar</string>
+    <string name="txt_regis">Registrarse</string>
+
+    <string name="tipoRegistro">Tipo de Registro</string>
+    <string name="txt_cliente">Cliente</string>
+    <string name="txt_distribuidor">Distribuidor</string>
+    <string name="txt_ambos">Ambos</string>
+
+
+
+
+
+
+</resources>

@@ -19,10 +19,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_margin="25dp"
+            android:layout_margin="5dp"
             android:contextClickable="false"
             android:onClick="Registro"
             android:text="@string/registro"
+            android:textColor="#153A4E" />
+
+        <TextView
+            android:id="@+id/register2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:contextClickable="false"
+            android:onClick="Registro"
+            android:text="@string/registro2"
+            android:textColor="#153A4E" />
+
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:contextClickable="false"
+            android:onClick="Registro"
+            android:text="@string/btn_show"
             android:textColor="#153A4E" />
 
         <ImageView

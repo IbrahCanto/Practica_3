@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Practica_3_contenedores</string>
     <string name="registro">Registrate</string>
+    <string name="registro2">Registrate 2</string>
     <string name="user">User:</string>
     <string name="pass">Pass:</string>
     <string name="edituser">user</string>
@@ -27,6 +28,7 @@
     <string name="txt_cliente">Cliente</string>
     <string name="txt_distribuidor">Distribuidor</string>
     <string name="txt_ambos">Ambos</string>
+    <string name="btn_show">Mostrar Mensaje</string>
 
 
 

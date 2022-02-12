@@ -13,12 +13,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.security.Principal;
+
 public class MainActivity extends AppCompatActivity {
     //Declarar las variables por elemento
     TextView register2, show;
     ImageView logo;
     EditText user, pass;
     Button iniciar, salir;
+    String nombre="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         iniciar=(Button) findViewById(R.id.btninicio);
         salir=(Button) findViewById(R.id.btncancelar);
         show=(TextView) findViewById(R.id.show);
+
 
         show.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +57,21 @@ public class MainActivity extends AppCompatActivity {
                 intent.addCategory(Intent.CATEGORY_HOME);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
+            }
+        });
+
+        iniciar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Este bloque se ejecuta al dar click en el boton iniciar
+                Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+                startActivity(intent);
+                Log.i("ERROR4", "Hiciste click en el boton iniciar");
+                nombre=user.getText().toString();
+                intent.putExtra("NombreUser", nombre);
+                //Toast.makeText(getApplicationContext(), "Bienvenid@" +nombre, Toast.LENGTH_SHORT).show();
+                startActivity(intent);
+
             }
         });
 

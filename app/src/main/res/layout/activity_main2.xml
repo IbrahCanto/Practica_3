@@ -254,19 +254,19 @@
                 android:text="@string/txt_regis" />
 
 
+
         </LinearLayout>
-
-
-
-
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:text="@string/version"
 
             />
+
+
+
 
     </LinearLayout>
 

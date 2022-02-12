@@ -13,14 +13,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/text_click"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:text="TextView clickable!"
-            android:textColor="@android:color/holo_blue_light"
-            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/register"
@@ -30,7 +22,6 @@
             android:layout_margin="25dp"
             android:contextClickable="false"
             android:onClick="Registro"
-
             android:text="@string/registro"
             android:textColor="#153A4E" />
 
